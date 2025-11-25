@@ -1,0 +1,18 @@
+.ipynb_checkpoints
+cache
+
+# Shapefiles #
+##############
+*.dbf
+*.fix
+*.prj
+*.qix
+*.shp
+*.shx
+*.cpg
+*.iso.xml
+*.iso.xml
+
+
+# ignore the data folder
+data/

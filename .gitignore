@@ -1,18 +1,10 @@
-.ipynb_checkpoints
-cache
-
-# Shapefiles #
-##############
-*.dbf
-*.fix
-*.prj
-*.qix
-*.shp
-*.shx
-*.cpg
-*.iso.xml
-*.iso.xml
-
-
-# ignore the data folder
+# Survey data must never be committed. Only the synthetic example in examples/ is tracked.
 data/
+outputs/
+*.csv
+!examples/synthetic_survey_export.csv
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
